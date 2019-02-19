@@ -24,7 +24,7 @@ public class Client {
 			byte buffer[] = new byte[1024];
 			in.read(buffer);
 			
-			System.out.println("Response Received: "+new String(buffer));
+			System.out.println("Response Received from Server: "+new String(buffer));
 			
 			
 		} catch (UnknownHostException e) {
